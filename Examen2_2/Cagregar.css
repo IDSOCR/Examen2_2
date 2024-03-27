@@ -1,0 +1,79 @@
+﻿body {
+    background-color: #fff; /* Fondo blanco para toda la página */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+    text-align: left;
+    position: relative;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+select {
+    width: calc(100% - 40px); /* Ancho del input */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .input-container label {
+        position: absolute;
+        left: 10px; /* Espacio del label a la izquierda */
+        top: -10px; /* Espacio del label arriba */
+        background-color: #fff; /* Fondo blanco para el label */
+        padding: 0 5px; /* Espacio dentro del label */
+        color: #777;
+    }
+
+.btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0ff; /* Fondo de botón en azul neon */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 20px #0ff; /* Sombreado con luz neon azul */
+    margin-right: 10px; /* Separación entre botones */
+}
+
+    button:hover {
+        background-color: #06f; /* Cambio de color al pasar el mouse */
+    }
